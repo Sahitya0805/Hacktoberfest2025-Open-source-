@@ -1,0 +1,8 @@
+def reverse_string(s):
+    return s[::-1]
+
+# Example usage
+text = "Hacktoberfest"
+reversed_text = reverse_string(text)
+print("Original:", text)
+print("Reversed:", reversed_text)
